@@ -10,3 +10,13 @@ test('should render uncompleted Todo component', () => {
 
     expect(TodoElement).toBeInTheDocument();
 })
+
+test('should render uncompleted Todo component', () => {
+    const todo = { id: 2, title: 'Test title 2', completed: true };
+
+    render(<Todo todo={todo} />);
+
+    const TodoElement = screen.getByTestId('test-2');
+
+    expect(TodoElement).toBeInTheDocument();
+})

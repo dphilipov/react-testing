@@ -4,7 +4,7 @@ function Todo({ todo }) {
   const { id, title, completed } = todo;
 
   return (
-    <div data-testid="test-1">
+    <div data-testid={`test-${id}`}>
       {
         completed
           ? <strike>< h2 >

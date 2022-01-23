@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render uncompleted Todo component: <strike> 1`] = `
+<div
+  data-testid="test-2"
+>
+  <strike>
+    <h2>
+      Test title 2
+    </h2>
+  </strike>
+</div>
+`;

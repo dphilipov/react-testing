@@ -1,5 +1,6 @@
 import './App.css';
 import Todo from './components/Todo/Todo';
+import Button from './components/Button/Button';
 
 function App() {
   const todos = [
@@ -15,6 +16,8 @@ function App() {
       {todos.map(todo => (
         <Todo todo={todo} />
       ))}
+
+      <Button label="Click me!"></Button>
     </div>
   );
 }
